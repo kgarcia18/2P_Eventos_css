@@ -1,0 +1,44 @@
+main{
+    max-width: 480px;
+    margin: auto;
+    margin-top: 100px;
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    gap: 10px;
+    justify-content: center;
+}
+
+main div{
+    width: 200px;
+    height: 100px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.div1{
+    background-color: red;
+    transition: 0.5s;
+}
+.div1:hover{
+    height: 150px;
+    background-color: rgb(49, 1, 1);
+    border: 6px solid green;
+    transition: 0.5s;
+}
+.div2{
+    background-color: green;
+    transition: 0.5s;
+}
+.div2:active{
+    background-color: blue;
+}
+
+.div3{
+    background-color:pink;
+    transition: 0.5s;
+}
+
+.div3:focus{
+    background-color: aqua;
+    width: 100%;
+
+}
